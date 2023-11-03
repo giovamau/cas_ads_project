@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+
+# Byte-compiled / optimized files
+*.pyc
+*.pyo
+
+# Mac Finder and Windows explorer files
+.DS_Store
+
+# Do not sync temp build files created by pip
+src/*/build/lib
+*.egg-info
+
+# Ignore jupyter notebooks (only sync "clean" source code)
+*.ipynb
+*.ipynb_checkpoints
+
+# Ignore any data stored in the directory except the ReadMe file
+data/*
+!data/ReadMe.md
