@@ -12,6 +12,10 @@ __pycache__/
 src/*/build/lib
 *.egg-info
 
+# Ignore jupyter 3 of 4 txt files
+*.txt
+!test_gitignore.txt
+
 # Ignore jupyter notebooks (only sync "clean" source code)
 *.ipynb
 *.ipynb_checkpoints
