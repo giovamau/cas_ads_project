@@ -15,7 +15,6 @@ src/*/build/lib
 # Ignore jupyter 3 of 4 txt files
 *.csv
 
-
 # Ignore jupyter notebooks (only sync "clean" source code)
 *.ipynb
 *.ipynb_checkpoints
