@@ -21,7 +21,7 @@ This repository is organized into modules, with each module containing specific 
 To begin accessing the materials in this repository:
 
 1. Clone or download the repository to your local machine.
-2. Navigate to specific module directories (e.g., Module 1) to access course-related content.
+2. Navigate to specific module directories to access course-related content.
 
 ## Good to know
 * Any content in the directory `data` apart from the `README.md` is ignored and won't be commited and pushed to the repository
