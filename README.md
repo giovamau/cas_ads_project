@@ -2,7 +2,6 @@
 
 Welcome to the main directory of the Certificate of Advanced Studies (CAS) in Applied Data Science repository.
 This is a public GitHub repository which I created for the CAS in Applied Data Science final project.
-While the basic project setup consists of Juptyter-Notebooks I decided to convert them to .py notebook files, with the python package `jupytext`.
 
 
 ## Overview
