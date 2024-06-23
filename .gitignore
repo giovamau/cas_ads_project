@@ -16,7 +16,7 @@ src/*/build/lib
 *.csv
 
 # Ignore jupyter notebooks (only sync "clean" source code)
-*.ipynb
+#*.ipynb
 *.ipynb_checkpoints
 
 # Ignore any data stored in the directory except the ReadMe file
