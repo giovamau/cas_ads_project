@@ -1,36 +1,58 @@
-# CAS in Applied Data Science
+# CAS in Applied Data Science — Final Project
 
-Welcome to the main directory of the Certificate of Advanced Studies (CAS) in Applied Data Science repository.
-This is a public GitHub repository which I created for the CAS in Applied Data Science final project.
+This repository contains materials for a **CAS in Applied Data Science** final project, including Jupyter notebooks, minimal local datasets (kept out of version control), and the project poster. The goal is to make the work easy to understand, review, and reproduce.
 
+---
 
-## Overview
+## 🧭 Overview
 
-This repository is organized into modules, with each module containing specific course materials, resources, and assignments.
+* **Notebooks** document the end-to-end workflow: exploration, feature engineering, modeling, and evaluation.
+* **Poster** includes the final presentation artifact and any supporting files.
+* **Data** is stored locally under `data/` and excluded from version control to keep the repo lean and compliant with data policies.
 
-###  Contents
+---
 
-- **Notebooks:** Jupyter notebooks used in lectures, workshops, or assignments.
-- **Datasets:** Store datasets used for analysis and practice exercises.
-- **Documentation:** Additional documents, references, or supplementary materials.
-- **Resources:** Other relevant resources that complement the learning experience.
+## 📁 Repository Structure
 
-## Getting Started
+```
+cas_ads_project/
+├─ Notebooks/        # Analysis and modeling notebooks
+├─ Poster/           # Poster and related source files
+├─ data/             # Local data only (ignored by git)
+│  └─ README.md      # Where to get data / how to regenerate it
+├─ requirements.txt  # Python dependencies
+└─ README.md
+```
 
-To begin accessing the materials in this repository:
+**Data policy:** The `data/` directory is intentionally **not** tracked in version control. Keep raw, interim, and processed files here. Use `data/README.md` to explain where data comes from and how to obtain or recreate it (e.g., links, scripts, or generation steps).
 
-1. Clone or download the repository to your local machine.
-2. Navigate to specific module directories to access course-related content.
+---
 
-## Good to know
-* Any content in the directory `data` apart from the `README.md` is ignored and won't be commited and pushed to the repository
+## ▶️ Working With the Notebooks
 
-## Contributions
+* Use a recent Python 3 environment and install the packages listed in `requirements.txt`.
+* Open the notebooks in your preferred Jupyter interface.
+* Run notebooks top-to-bottom. If a notebook expects files, place them under `data/` and adjust any paths if needed.
+* For heavy or external datasets, provide a small sample and describe the full source in `data/README.md` so others can test quickly.
 
-Contributions to enhance the content, correct errors, or add valuable resources are welcome. Follow the standard GitHub procedures for contributions and create pull requests for review.
+---
 
-## Contact
+## 📊 Poster / Report
 
-For any inquiries or additional information regarding the repository or its contents, feel free to contact:
+The **Poster** folder contains the final poster and, when applicable, its editable source (e.g., presentation file or LaTeX). Include brief notes on how the poster was generated or exported so that it can be reproduced.
 
-[giovamau](https://github.com/giovamau)  
+---
+
+## 🔁 Reproducibility Guidelines
+
+* Keep dependencies pinned in `requirements.txt`.
+* Prefer relative paths (e.g., `data/...`) inside notebooks.
+* Consider caching intermediate artifacts (e.g., cleaned data or features) under a `data/processed/` subfolder to speed up reruns.
+* Note any randomness and set seeds where relevant; document versions for critical libraries.
+
+---
+
+## 📬 Contact
+
+Questions or suggestions can be opened as issues or shared with **@giovamau** on GitHub.
+
