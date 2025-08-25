@@ -43,15 +43,6 @@ The **Poster** folder contains the final poster and, when applicable, its editab
 
 ---
 
-## 🔁 Reproducibility Guidelines
-
-* Keep dependencies pinned in `requirements.txt`.
-* Prefer relative paths (e.g., `data/...`) inside notebooks.
-* Consider caching intermediate artifacts (e.g., cleaned data or features) under a `data/processed/` subfolder to speed up reruns.
-* Note any randomness and set seeds where relevant; document versions for critical libraries.
-
----
-
 ## 📬 Contact
 
 Questions or suggestions can be opened as issues or shared with **@giovamau** on GitHub.
